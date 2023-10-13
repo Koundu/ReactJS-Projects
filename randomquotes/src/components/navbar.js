@@ -3,9 +3,9 @@ import React from "react";
 const Navbar = () =>{
     return(
         <div className="navbar">
-            <button>Previous</button>
+            <button id="prev">Previous</button>
             <h1>Random Quote Generator</h1>
-            <button>Next</button>
+            <button id="next">Next</button>
         </div>
     );
 }
